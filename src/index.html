@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Wow Pogoda - zawsze dobra prognoza!</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="uklad.css" />
+    <link rel="stylesheet" href="prognoza.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="siatka">
+      <div class="sekcja nagłówek">
+        <a href="#"><img src="obrazki/logo.png" width="440" /></a>
+      </div>
+      <div class="sekcja menu">
+        <h2>MIASTA</h2>
+        <h3>
+          Wybierz miasto z listy poniżej, by pokazać szczegółową prognozę.
+        </h3>
+        <ul class="listaMiast"></ul>
+      </div>
+      <div class="sekcja treść">
+        <div class="modułMapa">
+          <h2>MAPA</h2>
+          <h3>
+            Kliknij na miasto na mapie poniżej, by zobaczyć szczegółową prognozę
+            dla danego miejsca.
+          </h3>
+          <div class="mapa"></div>
+        </div>
+        <div class="modułPrognoza aktywny">
+          <h1 class="nazwa_miasta">WARSZAWA</h1>
+          <h4>OBECNA POGODA</h4>
+          <div class="pogodaTeraz">
+            <div>
+              <img class="ikonka_teraz" src="" width="100" />
+            </div>
+            <div class="szczegóły">
+              <div class="temperatura">
+                <span class="temperatura_wartość_teraz"></span>&deg;
+              </div>
+              <div class="opis opis_teraz">opis pogody</div>
+            </div>
+            <div>
+              <div>
+                <strong>Wiatr: </strong><span class="wiatr_teraz"></span> km/h
+              </div>
+              <div>
+                <strong>Wschód słońca: </strong
+                ><span class="wschód_teraz"></span>
+              </div>
+              <div>
+                <strong>Zachód słońca: </strong
+                ><span class="zachód_teraz"></span>
+              </div>
+              <div>
+                <strong>Zachmurzenie: </strong
+                ><span class="zachmurzenie_teraz"></span>
+                %
+              </div>
+            </div>
+          </div>
+          <h4>PROGNOZA</h4>
+          <div class="listaPrognoz">
+            <div class="prognoza prognoza_dziś">
+              <h5>PROGNOZA DZIŚ</h5>
+              <img class="ikonka" width="90" />
+              <div class="temperatura">
+                <span class="temperatura_wartość"></span>&deg;
+                <img class="wiatr" src="ikony/wiatr.png" width="20" />
+              </div>
+            </div>
+            <div class="prognoza prognoza_jutro">
+              <h5>PROGNOZA JUTRO</h5>
+              <img class="ikonka" width="90" />
+              <div class="temperatura">
+                <span class="temperatura_wartość"></span>&deg;
+                <img class="wiatr" src="ikony/wiatr.png" width="20" />
+              </div>
+            </div>
+            <div class="prognoza prognoza_pojutrze">
+              <h5>PROGNOZA POJUTRZE</h5>
+              <img class="ikonka" width="90" />
+              <div class="temperatura">
+                <span class="temperatura_wartość"></span>&deg;
+                <img class="wiatr" src="ikony/wiatr.png" width="20" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sekcja partner">
+        <h2>PARTNER</h2>
+        <a href="https://www.wowschool.pl" target="_blank"
+          ><img src="obrazki/wowschool_logo.png" width="100%"
+        /></a>
+      </div>
+      <div class="stopka">
+        <h2>STWORZONE PRZEZ</h2>
+        <ul>
+          <li>Zdolnych kursantów z kursu tworzenia stron WWW</li>
+          <li>Wow School</li>
+        </ul>
+      </div>
+    </div>
+    <script src="prognoza.js"></script>
+    <script src="miasta.js"></script>
+    <script src="skrypt.js"></script>
+  </body>
+</html>

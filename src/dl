@@ -1,0 +1,50 @@
+{
+    "miasto": "Szczecin",
+    "aktualizacja": "2020-09-01 19:28",
+    "teraz": {
+        "temperatura": 15.9,
+        "wiatrPrędkość": 10,
+        "wiatrKierunek": 12,
+        "wiatrKierunekSłownie": "N",
+        "opis": "całkowite zachmurzenie",
+        "ikonka": "chmury3",
+        "zachmurzenie": 100,
+        "wschódSłońca": "06:11",
+        "zachódSłońca": "19:52"
+    },
+    "prognoza": {
+        "dziś": {
+            "temperatura": 15.9,
+            "wiatrPrędkość": 16.4,
+            "wiatrKierunek": 37,
+            "wiatrKierunekSłownie": "NE",
+            "opis": "całkowite zachmurzenie",
+            "ikonka": "chmury3",
+            "zachmurzenie": 100,
+            "wschódSłońca": "06:11",
+            "zachódSłońca": "19:52"
+        },
+        "jutro": {
+            "temperatura": 15.6,
+            "wiatrPrędkość": 6.6,
+            "wiatrKierunek": 89,
+            "wiatrKierunekSłownie": "E",
+            "opis": "umiarkowane opady deszczu",
+            "ikonka": "deszcz2",
+            "zachmurzenie": 100,
+            "wschódSłońca": "06:13",
+            "zachódSłońca": "19:49"
+        },
+        "pojutrze": {
+            "temperatura": 18.8,
+            "wiatrPrędkość": 15.9,
+            "wiatrKierunek": 279,
+            "wiatrKierunekSłownie": "W",
+            "opis": "umiarkowane opady deszczu",
+            "ikonka": "deszcz2",
+            "zachmurzenie": 70,
+            "wschódSłońca": "06:15",
+            "zachódSłońca": "19:47"
+        }
+    }
+}

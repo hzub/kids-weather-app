@@ -1,0 +1,12 @@
+top blue:
+#4060b0
+
+top orange:
+#E09020
+
+bringht blue:
+#4070ff
+
+Dark gray:
+#555555
+

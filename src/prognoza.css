@@ -1,0 +1,47 @@
+.pogodaTeraz {
+  display: grid;
+  grid-template-columns: auto 1fr auto 50px;
+  grid-gap: 10px;
+}
+
+.temperatura {
+  font-weight: bold;
+  color: #4060b0;
+  font-size: 50px;
+}
+
+.listaPrognoz {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.prognoza {
+  border: 2px solid #e09020;
+  border-radius: 30px;
+  display: grid;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.prognoza .temperatura {
+  font-size: 25px;
+}
+
+.prognoza img {
+  justify-self: center;
+}
+
+@media (max-width: 990px) {
+  .pogodaTeraz {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+  }
+  .listaPrognoz {
+    display: block;
+  }
+  .prognoza {
+    margin-bottom: 10px;
+  }
+}

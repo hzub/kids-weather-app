@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto";
+  background-color: #eeeeee;
+  color: #555555;
+}
+
+.sekcja {
+  background-color: white;
+  border-top: 15px solid #e09020;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.siatka {
+  display: grid;
+  grid-template-columns: 260px 640px;
+  grid-template-rows: 180px auto auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.nagłówek {
+  grid-column: span 2;
+  background-image: url("obrazki/naglowektlo.png");
+  background-size: cover;
+  border-top: 15px solid #4060b0;
+}
+
+.stopka {
+  font-size: 12px;
+  padding: 30px;
+}
+
+.modułMapa {
+  display: none;
+}
+.modułPrognoza {
+  display: none;
+}
+.aktywny {
+  display: block;
+}
+
+@media (max-width: 990px) {
+  .nagłówek img {
+    width: 100%;
+  }
+  .siatka {
+    display: block;
+  }
+  .modułMapa.aktywny {
+    display: none;
+  }
+}
